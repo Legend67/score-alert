@@ -3,10 +3,10 @@
 Python-Based mail notification system for students scoring below average
 
 Create two mails 
-1. Sender and receiver 
+1. Sender and receiver
 2. Enable 2FA on sender mail to generate custom app password 
 
-## Steps to create an app password, you need 2-Step Verification on your Google Account.
+## Steps to create an app password, you need 2-Step Verification on your sender Google Account.
 
 If you use 2-Step-Verification and get a "password incorrect" error when you sign in, you can try to use an app password.
 
@@ -21,6 +21,7 @@ Select Done.
 
 Copy your app password and add it in the place of password in the code
 
+### Update the sender_mail and receiver_mail fields with youe newly created mails
 After successfully running the code select the excel file you want to use to send alerts.
 
 You can go through the sample excel file.
